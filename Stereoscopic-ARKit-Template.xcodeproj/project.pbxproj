@@ -1,0 +1,654 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		40D7979A21E32C5C00E84E38 /* mainMenuBack.png in Resources */ = {isa = PBXBuildFile; fileRef = 40D7979921E32C5C00E84E38 /* mainMenuBack.png */; };
+		7E27C8CA21E7897C005711E9 /* Videos.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E27C8C921E7897C005711E9 /* Videos.png */; };
+		7E27C8CC21E78989005711E9 /* Mail.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E27C8CB21E78989005711E9 /* Mail.png */; };
+		7E27C8CE21E78997005711E9 /* AppStore.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E27C8CD21E78997005711E9 /* AppStore.png */; };
+		7E27C8D021E789A2005711E9 /* Weather.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E27C8CF21E789A2005711E9 /* Weather.png */; };
+		7E27C8D221E789AB005711E9 /* Photos.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E27C8D121E789AB005711E9 /* Photos.png */; };
+		7E27C8D421E789C1005711E9 /* Music.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E27C8D321E789C1005711E9 /* Music.png */; };
+		7E27C8D621E789C9005711E9 /* Safari.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E27C8D521E789C9005711E9 /* Safari.png */; };
+		7E27C8E021E7B64C005711E9 /* ARUINode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E27C8DF21E7B64B005711E9 /* ARUINode.swift */; };
+		7E27C8E221E7C300005711E9 /* エヴァ破改.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E27C8E121E7C300005711E9 /* エヴァ破改.png */; };
+		7E27C8E421E7C307005711E9 /* エヴァ序改.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E27C8E321E7C307005711E9 /* エヴァ序改.png */; };
+		7E27C8E621E7C30F005711E9 /* エヴァQ改.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E27C8E521E7C30F005711E9 /* エヴァQ改.png */; };
+		7E27C90021E7C416005711E9 /* INCEPTION.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E27C8E721E7C413005711E9 /* INCEPTION.png */; };
+		7E27C90121E7C416005711E9 /* MissionImpossible.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E27C8E821E7C414005711E9 /* MissionImpossible.png */; };
+		7E27C90221E7C416005711E9 /* けいおん.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E27C8E921E7C414005711E9 /* けいおん.png */; };
+		7E27C90321E7C416005711E9 /* ARRIVAL.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E27C8EA21E7C414005711E9 /* ARRIVAL.png */; };
+		7E27C90421E7C416005711E9 /* アベンジャーズ.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E27C8EB21E7C414005711E9 /* アベンジャーズ.png */; };
+		7E27C90521E7C416005711E9 /* 四畳半神話大系.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7E27C8EC21E7C414005711E9 /* 四畳半神話大系.jpg */; };
+		7E27C90621E7C416005711E9 /* JURASSIC WORLD.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E27C8ED21E7C414005711E9 /* JURASSIC WORLD.png */; };
+		7E27C90721E7C416005711E9 /* 電脳コイル.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E27C8EE21E7C414005711E9 /* 電脳コイル.png */; };
+		7E27C90821E7C416005711E9 /* HOMEALONE.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E27C8EF21E7C414005711E9 /* HOMEALONE.png */; };
+		7E27C90921E7C416005711E9 /* サマーウォーズ.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E27C8F021E7C415005711E9 /* サマーウォーズ.png */; };
+		7E27C90A21E7C416005711E9 /* SHERLOCK.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E27C8F121E7C415005711E9 /* SHERLOCK.png */; };
+		7E27C90B21E7C416005711E9 /* 時計じかけのオレンジ.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E27C8F221E7C415005711E9 /* 時計じかけのオレンジ.png */; };
+		7E27C90C21E7C416005711E9 /* バック・トゥ・ザ・フューチャー.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E27C8F321E7C415005711E9 /* バック・トゥ・ザ・フューチャー.png */; };
+		7E27C90D21E7C416005711E9 /* パイレーツ.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E27C8F421E7C415005711E9 /* パイレーツ.png */; };
+		7E27C90E21E7C416005711E9 /* パプリカ.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E27C8F521E7C415005711E9 /* パプリカ.png */; };
+		7E27C90F21E7C416005711E9 /* READY PLAYER ONE.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E27C8F621E7C415005711E9 /* READY PLAYER ONE.png */; };
+		7E27C91121E7C416005711E9 /* GODFATHER.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E27C8F821E7C415005711E9 /* GODFATHER.png */; };
+		7E27C91221E7C416005711E9 /* toystory3.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E27C8F921E7C415005711E9 /* toystory3.png */; };
+		7E27C91321E7C416005711E9 /* マトリックス.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E27C8FA21E7C415005711E9 /* マトリックス.png */; };
+		7E27C91421E7C416005711E9 /* シン・ゴジラ.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E27C8FB21E7C416005711E9 /* シン・ゴジラ.png */; };
+		7E27C91521E7C416005711E9 /* INTERSTELLAR.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E27C8FC21E7C416005711E9 /* INTERSTELLAR.png */; };
+		7E27C91621E7C416005711E9 /* ブラックパンサー.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E27C8FD21E7C416005711E9 /* ブラックパンサー.png */; };
+		7E27C91721E7C416005711E9 /* rampage.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E27C8FE21E7C416005711E9 /* rampage.png */; };
+		7E27C91821E7C416005711E9 /* 秒速5センチメートル.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E27C8FF21E7C416005711E9 /* 秒速5センチメートル.png */; };
+		7E5F67CC21E0C63000594BD9 /* videoIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E5F67CB21E0C63000594BD9 /* videoIcon.png */; };
+		7E5F67D221E0D41500594BD9 /* amazonIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E5F67D121E0D41500594BD9 /* amazonIcon.png */; };
+		7E5F67D421E0DACA00594BD9 /* mailIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E5F67D321E0DACA00594BD9 /* mailIcon.png */; };
+		7E5F67D621E0DC0700594BD9 /* weatherIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E5F67D521E0DC0700594BD9 /* weatherIcon.png */; };
+		7E5F67D821E0DE3A00594BD9 /* appstoreIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E5F67D721E0DE3900594BD9 /* appstoreIcon.png */; };
+		7E5F67DA21E0E0AA00594BD9 /* Collision.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E5F67D921E0E0AA00594BD9 /* Collision.swift */; };
+		7E5F67DC21E0ED6200594BD9 /* SCNVector3Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E5F67DB21E0ED6200594BD9 /* SCNVector3Extensions.swift */; };
+		7E5F67F021E1E4BD00594BD9 /* evaQ1080p.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 7E5F67EF21E1E4BD00594BD9 /* evaQ1080p.mp4 */; };
+		7E5F67F221E1EC6000594BD9 /* ここに検索したいものをおいてください.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E5F67F121E1EC6000594BD9 /* ここに検索したいものをおいてください.png */; };
+		7E5F67F421E1FFCD00594BD9 /* amazonApp.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E5F67F321E1FFCD00594BD9 /* amazonApp.png */; };
+		7E5F67F621E207EC00594BD9 /* 検索したいものをここに置いてください2.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E5F67F521E207EC00594BD9 /* 検索したいものをここに置いてください2.png */; };
+		7E5F67F821E20F3200594BD9 /* 矢印.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E5F67F721E20F3100594BD9 /* 矢印.png */; };
+		7E5F67FA21E21E2E00594BD9 /* Search.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E5F67F921E21E2E00594BD9 /* Search.png */; };
+		7E5F67FC21E22BF500594BD9 /* ARWebViewNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E5F67FB21E22BF500594BD9 /* ARWebViewNode.swift */; };
+		7E5F67FE21E25DD900594BD9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E5F67FD21E25DD900594BD9 /* ViewController.swift */; };
+		7E5F680221E2663700594BD9 /* evaH4K.mov in Resources */ = {isa = PBXBuildFile; fileRef = 7E5F680121E2663700594BD9 /* evaH4K.mov */; };
+		7E7CE24121DE50B1001CB4FD /* GoogleCustomSearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E7CE24021DE50B1001CB4FD /* GoogleCustomSearch.swift */; };
+		7E7CE24321DE5BDD001CB4FD /* LeapController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E7CE24221DE5BDD001CB4FD /* LeapController.swift */; };
+		7E7CE28221DF0ED4001CB4FD /* evaQ480p.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 7E7CE28021DF0ED1001CB4FD /* evaQ480p.mp4 */; };
+		7E7CE28321DF0ED4001CB4FD /* evaQ480p_1.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 7E7CE28121DF0ED4001CB4FD /* evaQ480p_1.mp4 */; };
+		7E7CE28721DF16D1001CB4FD /* ARVideoNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E7CE28621DF16D1001CB4FD /* ARVideoNode.swift */; };
+		7E7CE28B21DF27D0001CB4FD /* エヴァ序.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E7CE28A21DF27D0001CB4FD /* エヴァ序.png */; };
+		7E7CE28D21DF27D7001CB4FD /* エヴァ破.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E7CE28C21DF27D7001CB4FD /* エヴァ破.png */; };
+		7E7CE28F21DF27DD001CB4FD /* エヴァQ.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E7CE28E21DF27DD001CB4FD /* エヴァQ.png */; };
+		7EFB6AE521BE7F6200981395 /* big_buck_bunny.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 7EFB6AE421BE7F6200981395 /* big_buck_bunny.mp4 */; };
+		AE6EBF241F07A82A00391963 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE6EBF231F07A82A00391963 /* AppDelegate.swift */; };
+		AE6EBF261F07A82A00391963 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = AE6EBF251F07A82A00391963 /* art.scnassets */; };
+		AE6EBF2B1F07A82A00391963 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE6EBF291F07A82A00391963 /* Main.storyboard */; };
+		AE6EBF2D1F07A82A00391963 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE6EBF2C1F07A82A00391963 /* Assets.xcassets */; };
+		AE6EBF301F07A82A00391963 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE6EBF2E1F07A82A00391963 /* LaunchScreen.storyboard */; };
+		D135B201A1D8506CD3707051 /* Pods_Stereoscopic_ARKit_Template.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 620E3E7E81A7F13035FEFECA /* Pods_Stereoscopic_ARKit_Template.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		40D7979921E32C5C00E84E38 /* mainMenuBack.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mainMenuBack.png; sourceTree = "<group>"; };
+		620E3E7E81A7F13035FEFECA /* Pods_Stereoscopic_ARKit_Template.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Stereoscopic_ARKit_Template.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E27C8C921E7897C005711E9 /* Videos.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Videos.png; sourceTree = "<group>"; };
+		7E27C8CB21E78989005711E9 /* Mail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Mail.png; sourceTree = "<group>"; };
+		7E27C8CD21E78997005711E9 /* AppStore.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AppStore.png; sourceTree = "<group>"; };
+		7E27C8CF21E789A2005711E9 /* Weather.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Weather.png; sourceTree = "<group>"; };
+		7E27C8D121E789AB005711E9 /* Photos.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Photos.png; sourceTree = "<group>"; };
+		7E27C8D321E789C1005711E9 /* Music.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Music.png; sourceTree = "<group>"; };
+		7E27C8D521E789C9005711E9 /* Safari.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Safari.png; sourceTree = "<group>"; };
+		7E27C8DF21E7B64B005711E9 /* ARUINode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ARUINode.swift; sourceTree = "<group>"; };
+		7E27C8E121E7C300005711E9 /* エヴァ破改.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "エヴァ破改.png"; sourceTree = "<group>"; };
+		7E27C8E321E7C307005711E9 /* エヴァ序改.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "エヴァ序改.png"; sourceTree = "<group>"; };
+		7E27C8E521E7C30F005711E9 /* エヴァQ改.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "エヴァQ改.png"; sourceTree = "<group>"; };
+		7E27C8E721E7C413005711E9 /* INCEPTION.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = INCEPTION.png; sourceTree = "<group>"; };
+		7E27C8E821E7C414005711E9 /* MissionImpossible.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MissionImpossible.png; sourceTree = "<group>"; };
+		7E27C8E921E7C414005711E9 /* けいおん.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "けいおん.png"; sourceTree = "<group>"; };
+		7E27C8EA21E7C414005711E9 /* ARRIVAL.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ARRIVAL.png; sourceTree = "<group>"; };
+		7E27C8EB21E7C414005711E9 /* アベンジャーズ.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "アベンジャーズ.png"; sourceTree = "<group>"; };
+		7E27C8EC21E7C414005711E9 /* 四畳半神話大系.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "四畳半神話大系.jpg"; sourceTree = "<group>"; };
+		7E27C8ED21E7C414005711E9 /* JURASSIC WORLD.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "JURASSIC WORLD.png"; sourceTree = "<group>"; };
+		7E27C8EE21E7C414005711E9 /* 電脳コイル.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "電脳コイル.png"; sourceTree = "<group>"; };
+		7E27C8EF21E7C414005711E9 /* HOMEALONE.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = HOMEALONE.png; sourceTree = "<group>"; };
+		7E27C8F021E7C415005711E9 /* サマーウォーズ.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "サマーウォーズ.png"; sourceTree = "<group>"; };
+		7E27C8F121E7C415005711E9 /* SHERLOCK.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SHERLOCK.png; sourceTree = "<group>"; };
+		7E27C8F221E7C415005711E9 /* 時計じかけのオレンジ.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "時計じかけのオレンジ.png"; sourceTree = "<group>"; };
+		7E27C8F321E7C415005711E9 /* バック・トゥ・ザ・フューチャー.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "バック・トゥ・ザ・フューチャー.png"; sourceTree = "<group>"; };
+		7E27C8F421E7C415005711E9 /* パイレーツ.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "パイレーツ.png"; sourceTree = "<group>"; };
+		7E27C8F521E7C415005711E9 /* パプリカ.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "パプリカ.png"; sourceTree = "<group>"; };
+		7E27C8F621E7C415005711E9 /* READY PLAYER ONE.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "READY PLAYER ONE.png"; sourceTree = "<group>"; };
+		7E27C8F821E7C415005711E9 /* GODFATHER.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GODFATHER.png; sourceTree = "<group>"; };
+		7E27C8F921E7C415005711E9 /* toystory3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = toystory3.png; sourceTree = "<group>"; };
+		7E27C8FA21E7C415005711E9 /* マトリックス.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "マトリックス.png"; sourceTree = "<group>"; };
+		7E27C8FB21E7C416005711E9 /* シン・ゴジラ.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "シン・ゴジラ.png"; sourceTree = "<group>"; };
+		7E27C8FC21E7C416005711E9 /* INTERSTELLAR.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = INTERSTELLAR.png; sourceTree = "<group>"; };
+		7E27C8FD21E7C416005711E9 /* ブラックパンサー.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ブラックパンサー.png"; sourceTree = "<group>"; };
+		7E27C8FE21E7C416005711E9 /* rampage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rampage.png; sourceTree = "<group>"; };
+		7E27C8FF21E7C416005711E9 /* 秒速5センチメートル.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "秒速5センチメートル.png"; sourceTree = "<group>"; };
+		7E5F67CB21E0C63000594BD9 /* videoIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = videoIcon.png; sourceTree = "<group>"; };
+		7E5F67D121E0D41500594BD9 /* amazonIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = amazonIcon.png; sourceTree = "<group>"; };
+		7E5F67D321E0DACA00594BD9 /* mailIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mailIcon.png; sourceTree = "<group>"; };
+		7E5F67D521E0DC0700594BD9 /* weatherIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = weatherIcon.png; sourceTree = "<group>"; };
+		7E5F67D721E0DE3900594BD9 /* appstoreIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = appstoreIcon.png; sourceTree = "<group>"; };
+		7E5F67D921E0E0AA00594BD9 /* Collision.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Collision.swift; sourceTree = "<group>"; };
+		7E5F67DB21E0ED6200594BD9 /* SCNVector3Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SCNVector3Extensions.swift; sourceTree = "<group>"; };
+		7E5F67ED21E1E32900594BD9 /* evaQ480序盤.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "evaQ480序盤.mp4"; sourceTree = "<group>"; };
+		7E5F67EE21E1E3B500594BD9 /* evaQ1080p_2.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = evaQ1080p_2.mp4; sourceTree = "<group>"; };
+		7E5F67EF21E1E4BD00594BD9 /* evaQ1080p.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = evaQ1080p.mp4; sourceTree = "<group>"; };
+		7E5F67F121E1EC6000594BD9 /* ここに検索したいものをおいてください.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ここに検索したいものをおいてください.png"; sourceTree = "<group>"; };
+		7E5F67F321E1FFCD00594BD9 /* amazonApp.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = amazonApp.png; sourceTree = "<group>"; };
+		7E5F67F521E207EC00594BD9 /* 検索したいものをここに置いてください2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "検索したいものをここに置いてください2.png"; sourceTree = "<group>"; };
+		7E5F67F721E20F3100594BD9 /* 矢印.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "矢印.png"; sourceTree = "<group>"; };
+		7E5F67F921E21E2E00594BD9 /* Search.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Search.png; sourceTree = "<group>"; };
+		7E5F67FB21E22BF500594BD9 /* ARWebViewNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARWebViewNode.swift; sourceTree = "<group>"; };
+		7E5F67FD21E25DD900594BD9 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7E5F680121E2663700594BD9 /* evaH4K.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = evaH4K.mov; sourceTree = "<group>"; };
+		7E7CE24021DE50B1001CB4FD /* GoogleCustomSearch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoogleCustomSearch.swift; sourceTree = "<group>"; };
+		7E7CE24221DE5BDD001CB4FD /* LeapController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LeapController.swift; sourceTree = "<group>"; };
+		7E7CE28021DF0ED1001CB4FD /* evaQ480p.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = evaQ480p.mp4; sourceTree = "<group>"; };
+		7E7CE28121DF0ED4001CB4FD /* evaQ480p_1.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = evaQ480p_1.mp4; sourceTree = "<group>"; };
+		7E7CE28621DF16D1001CB4FD /* ARVideoNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARVideoNode.swift; sourceTree = "<group>"; };
+		7E7CE28A21DF27D0001CB4FD /* エヴァ序.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "エヴァ序.png"; sourceTree = "<group>"; };
+		7E7CE28C21DF27D7001CB4FD /* エヴァ破.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "エヴァ破.png"; sourceTree = "<group>"; };
+		7E7CE28E21DF27DD001CB4FD /* エヴァQ.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "エヴァQ.png"; sourceTree = "<group>"; };
+		7EFB6AE421BE7F6200981395 /* big_buck_bunny.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = big_buck_bunny.mp4; path = "Stereoscopic-ARKit-Template/art.scnassets/big_buck_bunny.mp4"; sourceTree = "<group>"; };
+		AE6EBF201F07A82A00391963 /* Stereoscopic-ARKit-Template.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Stereoscopic-ARKit-Template.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE6EBF231F07A82A00391963 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AE6EBF251F07A82A00391963 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
+		AE6EBF2A1F07A82A00391963 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AE6EBF2C1F07A82A00391963 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AE6EBF2F1F07A82A00391963 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AE6EBF311F07A82A00391963 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E84098E0968D8E808BF64178 /* Pods-Stereoscopic-ARKit-Template.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Stereoscopic-ARKit-Template.release.xcconfig"; path = "Pods/Target Support Files/Pods-Stereoscopic-ARKit-Template/Pods-Stereoscopic-ARKit-Template.release.xcconfig"; sourceTree = "<group>"; };
+		FC8ECC2F6C30C1944408AD7B /* Pods-Stereoscopic-ARKit-Template.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Stereoscopic-ARKit-Template.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Stereoscopic-ARKit-Template/Pods-Stereoscopic-ARKit-Template.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AE6EBF1D1F07A82A00391963 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D135B201A1D8506CD3707051 /* Pods_Stereoscopic_ARKit_Template.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2D51EA7EBE2E243E59958CAA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FC8ECC2F6C30C1944408AD7B /* Pods-Stereoscopic-ARKit-Template.debug.xcconfig */,
+				E84098E0968D8E808BF64178 /* Pods-Stereoscopic-ARKit-Template.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		330ACC35A7D5CB5103AF6421 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				620E3E7E81A7F13035FEFECA /* Pods_Stereoscopic_ARKit_Template.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AE6EBF171F07A82A00391963 = {
+			isa = PBXGroup;
+			children = (
+				7EFB6AE421BE7F6200981395 /* big_buck_bunny.mp4 */,
+				7E7CE28121DF0ED4001CB4FD /* evaQ480p_1.mp4 */,
+				7E7CE28021DF0ED1001CB4FD /* evaQ480p.mp4 */,
+				7E5F67EE21E1E3B500594BD9 /* evaQ1080p_2.mp4 */,
+				7E5F67EF21E1E4BD00594BD9 /* evaQ1080p.mp4 */,
+				7E5F67ED21E1E32900594BD9 /* evaQ480序盤.mp4 */,
+				7E7CE28A21DF27D0001CB4FD /* エヴァ序.png */,
+				7E7CE28C21DF27D7001CB4FD /* エヴァ破.png */,
+				7E7CE28E21DF27DD001CB4FD /* エヴァQ.png */,
+				7E5F67CB21E0C63000594BD9 /* videoIcon.png */,
+				7E27C8C921E7897C005711E9 /* Videos.png */,
+				7E5F67D121E0D41500594BD9 /* amazonIcon.png */,
+				7E27C8CB21E78989005711E9 /* Mail.png */,
+				7E5F67D321E0DACA00594BD9 /* mailIcon.png */,
+				7E27C8CF21E789A2005711E9 /* Weather.png */,
+				7E5F67D521E0DC0700594BD9 /* weatherIcon.png */,
+				7E5F67D721E0DE3900594BD9 /* appstoreIcon.png */,
+				7E27C8CD21E78997005711E9 /* AppStore.png */,
+				7E27C8D121E789AB005711E9 /* Photos.png */,
+				7E27C8D521E789C9005711E9 /* Safari.png */,
+				7E27C8D321E789C1005711E9 /* Music.png */,
+				7E5F67F321E1FFCD00594BD9 /* amazonApp.png */,
+				7E5F67F121E1EC6000594BD9 /* ここに検索したいものをおいてください.png */,
+				7E5F67F521E207EC00594BD9 /* 検索したいものをここに置いてください2.png */,
+				7E5F67F721E20F3100594BD9 /* 矢印.png */,
+				7E5F67F921E21E2E00594BD9 /* Search.png */,
+				7E5F680121E2663700594BD9 /* evaH4K.mov */,
+				40D7979921E32C5C00E84E38 /* mainMenuBack.png */,
+				7E27C8E321E7C307005711E9 /* エヴァ序改.png */,
+				7E27C8E121E7C300005711E9 /* エヴァ破改.png */,
+				7E27C8E521E7C30F005711E9 /* エヴァQ改.png */,
+				7E27C8EA21E7C414005711E9 /* ARRIVAL.png */,
+				7E27C8F821E7C415005711E9 /* GODFATHER.png */,
+				7E27C8EF21E7C414005711E9 /* HOMEALONE.png */,
+				7E27C8E721E7C413005711E9 /* INCEPTION.png */,
+				7E27C8FC21E7C416005711E9 /* INTERSTELLAR.png */,
+				7E27C8ED21E7C414005711E9 /* JURASSIC WORLD.png */,
+				7E27C8E821E7C414005711E9 /* MissionImpossible.png */,
+				7E27C8FE21E7C416005711E9 /* rampage.png */,
+				7E27C8F621E7C415005711E9 /* READY PLAYER ONE.png */,
+				7E27C8F121E7C415005711E9 /* SHERLOCK.png */,
+				7E27C8F921E7C415005711E9 /* toystory3.png */,
+				7E27C8EB21E7C414005711E9 /* アベンジャーズ.png */,
+				7E27C8E921E7C414005711E9 /* けいおん.png */,
+				7E27C8F021E7C415005711E9 /* サマーウォーズ.png */,
+				7E27C8FB21E7C416005711E9 /* シン・ゴジラ.png */,
+				7E27C8F421E7C415005711E9 /* パイレーツ.png */,
+				7E27C8F321E7C415005711E9 /* バック・トゥ・ザ・フューチャー.png */,
+				7E27C8F521E7C415005711E9 /* パプリカ.png */,
+				7E27C8FD21E7C416005711E9 /* ブラックパンサー.png */,
+				7E27C8FA21E7C415005711E9 /* マトリックス.png */,
+				7E27C8EC21E7C414005711E9 /* 四畳半神話大系.jpg */,
+				7E27C8F221E7C415005711E9 /* 時計じかけのオレンジ.png */,
+				7E27C8EE21E7C414005711E9 /* 電脳コイル.png */,
+				7E27C8FF21E7C416005711E9 /* 秒速5センチメートル.png */,
+				AE6EBF221F07A82A00391963 /* Stereoscopic-ARKit-Template */,
+				AE6EBF211F07A82A00391963 /* Products */,
+				2D51EA7EBE2E243E59958CAA /* Pods */,
+				330ACC35A7D5CB5103AF6421 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		AE6EBF211F07A82A00391963 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AE6EBF201F07A82A00391963 /* Stereoscopic-ARKit-Template.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AE6EBF221F07A82A00391963 /* Stereoscopic-ARKit-Template */ = {
+			isa = PBXGroup;
+			children = (
+				AE6EBF231F07A82A00391963 /* AppDelegate.swift */,
+				AE6EBF251F07A82A00391963 /* art.scnassets */,
+				7E5F67D921E0E0AA00594BD9 /* Collision.swift */,
+				7E27C8DF21E7B64B005711E9 /* ARUINode.swift */,
+				7E5F67FD21E25DD900594BD9 /* ViewController.swift */,
+				7E5F67DB21E0ED6200594BD9 /* SCNVector3Extensions.swift */,
+				7E7CE28621DF16D1001CB4FD /* ARVideoNode.swift */,
+				7E7CE24021DE50B1001CB4FD /* GoogleCustomSearch.swift */,
+				7E7CE24221DE5BDD001CB4FD /* LeapController.swift */,
+				7E5F67FB21E22BF500594BD9 /* ARWebViewNode.swift */,
+				AE6EBF291F07A82A00391963 /* Main.storyboard */,
+				AE6EBF2C1F07A82A00391963 /* Assets.xcassets */,
+				AE6EBF2E1F07A82A00391963 /* LaunchScreen.storyboard */,
+				AE6EBF311F07A82A00391963 /* Info.plist */,
+			);
+			path = "Stereoscopic-ARKit-Template";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AE6EBF1F1F07A82A00391963 /* Stereoscopic-ARKit-Template */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE6EBF341F07A82A00391963 /* Build configuration list for PBXNativeTarget "Stereoscopic-ARKit-Template" */;
+			buildPhases = (
+				3643A4D3059E8E1A47808036 /* [CP] Check Pods Manifest.lock */,
+				AE6EBF1C1F07A82A00391963 /* Sources */,
+				AE6EBF1D1F07A82A00391963 /* Frameworks */,
+				AE6EBF1E1F07A82A00391963 /* Resources */,
+				4E47486E6D780E6322934026 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Stereoscopic-ARKit-Template";
+			productName = "Stereoscopic-ARKit-Template";
+			productReference = AE6EBF201F07A82A00391963 /* Stereoscopic-ARKit-Template.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AE6EBF181F07A82A00391963 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = CompanyName;
+				TargetAttributes = {
+					AE6EBF1F1F07A82A00391963 = {
+						CreatedOnToolsVersion = 9.0;
+						LastSwiftMigration = 1010;
+					};
+				};
+			};
+			buildConfigurationList = AE6EBF1B1F07A82A00391963 /* Build configuration list for PBXProject "Stereoscopic-ARKit-Template" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AE6EBF171F07A82A00391963;
+			productRefGroup = AE6EBF211F07A82A00391963 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AE6EBF1F1F07A82A00391963 /* Stereoscopic-ARKit-Template */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AE6EBF1E1F07A82A00391963 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E27C91221E7C416005711E9 /* toystory3.png in Resources */,
+				7E7CE28221DF0ED4001CB4FD /* evaQ480p.mp4 in Resources */,
+				7E5F67F421E1FFCD00594BD9 /* amazonApp.png in Resources */,
+				7E27C8CC21E78989005711E9 /* Mail.png in Resources */,
+				7E27C90921E7C416005711E9 /* サマーウォーズ.png in Resources */,
+				7EFB6AE521BE7F6200981395 /* big_buck_bunny.mp4 in Resources */,
+				7E27C8D021E789A2005711E9 /* Weather.png in Resources */,
+				7E5F67F021E1E4BD00594BD9 /* evaQ1080p.mp4 in Resources */,
+				7E7CE28D21DF27D7001CB4FD /* エヴァ破.png in Resources */,
+				7E27C90621E7C416005711E9 /* JURASSIC WORLD.png in Resources */,
+				7E27C8E421E7C307005711E9 /* エヴァ序改.png in Resources */,
+				7E5F67D621E0DC0700594BD9 /* weatherIcon.png in Resources */,
+				7E27C91321E7C416005711E9 /* マトリックス.png in Resources */,
+				7E5F67CC21E0C63000594BD9 /* videoIcon.png in Resources */,
+				7E5F67F221E1EC6000594BD9 /* ここに検索したいものをおいてください.png in Resources */,
+				7E5F67F621E207EC00594BD9 /* 検索したいものをここに置いてください2.png in Resources */,
+				AE6EBF261F07A82A00391963 /* art.scnassets in Resources */,
+				7E27C8E621E7C30F005711E9 /* エヴァQ改.png in Resources */,
+				7E27C90F21E7C416005711E9 /* READY PLAYER ONE.png in Resources */,
+				7E27C90A21E7C416005711E9 /* SHERLOCK.png in Resources */,
+				7E5F67D821E0DE3A00594BD9 /* appstoreIcon.png in Resources */,
+				7E27C90321E7C416005711E9 /* ARRIVAL.png in Resources */,
+				AE6EBF301F07A82A00391963 /* LaunchScreen.storyboard in Resources */,
+				AE6EBF2D1F07A82A00391963 /* Assets.xcassets in Resources */,
+				40D7979A21E32C5C00E84E38 /* mainMenuBack.png in Resources */,
+				7E7CE28321DF0ED4001CB4FD /* evaQ480p_1.mp4 in Resources */,
+				AE6EBF2B1F07A82A00391963 /* Main.storyboard in Resources */,
+				7E27C8D221E789AB005711E9 /* Photos.png in Resources */,
+				7E27C90D21E7C416005711E9 /* パイレーツ.png in Resources */,
+				7E27C90721E7C416005711E9 /* 電脳コイル.png in Resources */,
+				7E5F67F821E20F3200594BD9 /* 矢印.png in Resources */,
+				7E27C91421E7C416005711E9 /* シン・ゴジラ.png in Resources */,
+				7E27C90421E7C416005711E9 /* アベンジャーズ.png in Resources */,
+				7E27C91121E7C416005711E9 /* GODFATHER.png in Resources */,
+				7E27C90121E7C416005711E9 /* MissionImpossible.png in Resources */,
+				7E27C90821E7C416005711E9 /* HOMEALONE.png in Resources */,
+				7E27C91821E7C416005711E9 /* 秒速5センチメートル.png in Resources */,
+				7E27C90B21E7C416005711E9 /* 時計じかけのオレンジ.png in Resources */,
+				7E5F67D421E0DACA00594BD9 /* mailIcon.png in Resources */,
+				7E27C91521E7C416005711E9 /* INTERSTELLAR.png in Resources */,
+				7E27C91721E7C416005711E9 /* rampage.png in Resources */,
+				7E27C8CE21E78997005711E9 /* AppStore.png in Resources */,
+				7E27C90021E7C416005711E9 /* INCEPTION.png in Resources */,
+				7E5F680221E2663700594BD9 /* evaH4K.mov in Resources */,
+				7E27C90C21E7C416005711E9 /* バック・トゥ・ザ・フューチャー.png in Resources */,
+				7E27C90521E7C416005711E9 /* 四畳半神話大系.jpg in Resources */,
+				7E27C8D621E789C9005711E9 /* Safari.png in Resources */,
+				7E27C90E21E7C416005711E9 /* パプリカ.png in Resources */,
+				7E5F67D221E0D41500594BD9 /* amazonIcon.png in Resources */,
+				7E27C91621E7C416005711E9 /* ブラックパンサー.png in Resources */,
+				7E27C8E221E7C300005711E9 /* エヴァ破改.png in Resources */,
+				7E27C8D421E789C1005711E9 /* Music.png in Resources */,
+				7E7CE28F21DF27DD001CB4FD /* エヴァQ.png in Resources */,
+				7E5F67FA21E21E2E00594BD9 /* Search.png in Resources */,
+				7E27C90221E7C416005711E9 /* けいおん.png in Resources */,
+				7E7CE28B21DF27D0001CB4FD /* エヴァ序.png in Resources */,
+				7E27C8CA21E7897C005711E9 /* Videos.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3643A4D3059E8E1A47808036 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Stereoscopic-ARKit-Template-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4E47486E6D780E6322934026 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Stereoscopic-ARKit-Template/Pods-Stereoscopic-ARKit-Template-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Starscream/Starscream.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Starscream.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Stereoscopic-ARKit-Template/Pods-Stereoscopic-ARKit-Template-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AE6EBF1C1F07A82A00391963 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E7CE24321DE5BDD001CB4FD /* LeapController.swift in Sources */,
+				AE6EBF241F07A82A00391963 /* AppDelegate.swift in Sources */,
+				7E5F67FE21E25DD900594BD9 /* ViewController.swift in Sources */,
+				7E27C8E021E7B64C005711E9 /* ARUINode.swift in Sources */,
+				7E7CE24121DE50B1001CB4FD /* GoogleCustomSearch.swift in Sources */,
+				7E7CE28721DF16D1001CB4FD /* ARVideoNode.swift in Sources */,
+				7E5F67FC21E22BF500594BD9 /* ARWebViewNode.swift in Sources */,
+				7E5F67DA21E0E0AA00594BD9 /* Collision.swift in Sources */,
+				7E5F67DC21E0ED6200594BD9 /* SCNVector3Extensions.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AE6EBF291F07A82A00391963 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AE6EBF2A1F07A82A00391963 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AE6EBF2E1F07A82A00391963 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AE6EBF2F1F07A82A00391963 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AE6EBF321F07A82A00391963 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AE6EBF331F07A82A00391963 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AE6EBF351F07A82A00391963 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FC8ECC2F6C30C1944408AD7B /* Pods-Stereoscopic-ARKit-Template.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = T762T68N9B;
+				INFOPLIST_FILE = "Stereoscopic-ARKit-Template/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.daisuke.zisyupuro;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AE6EBF361F07A82A00391963 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E84098E0968D8E808BF64178 /* Pods-Stereoscopic-ARKit-Template.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = T762T68N9B;
+				INFOPLIST_FILE = "Stereoscopic-ARKit-Template/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.daisuke.zisyupuro;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AE6EBF1B1F07A82A00391963 /* Build configuration list for PBXProject "Stereoscopic-ARKit-Template" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE6EBF321F07A82A00391963 /* Debug */,
+				AE6EBF331F07A82A00391963 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE6EBF341F07A82A00391963 /* Build configuration list for PBXNativeTarget "Stereoscopic-ARKit-Template" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE6EBF351F07A82A00391963 /* Debug */,
+				AE6EBF361F07A82A00391963 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AE6EBF181F07A82A00391963 /* Project object */;
+}
